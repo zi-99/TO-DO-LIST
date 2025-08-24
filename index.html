@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="todo py-5 100vh px-5  ">
+        <div class="row ">
+            <h2 class="text-white text-center fw-bold mb-5">To Do List</h2>
+            <div class="col-lg-8 bg-white  m-auto py-5">
+                <div class="todo-container">
+                    <div class="add-task d-flex align-items-center justify-content-center ">
+                        <input class="form-control " type="text">
+                        <span class="plus d-flex align-items-center justify-content-center">+</span>
+                    </div>
+                    <div class="tasks-content ">
+                        <span class="no-tasks-message">No Tasks To Show</span>
+                        <span class="task-box">Task One
+                                <span class="delete">Delete</span>
+                            </span>
+                            <span class="task-box">Task two
+                                <span class="delete">Delete</span>
+                            </span>
+                    </div>
+                </div>
+    
+                <div class="finish-delete py-3">
+                    <span class="delete-all px-3 mx-2">Delete</span>
+                    <span class="finish-all px-3">Finish</span>
+                </div>
+    
+                <div class="tasks-stats">
+                    <div class="tasks-count">
+                        Tasks <span>0</span>
+                    </div>
+                    <div class="tasks-completed">
+                        Completed <span>0</span>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+    
+    
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
